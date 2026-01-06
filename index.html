@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kanban Board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="kanban">
+    <h2>Kanban Board</h2>
+
+    <div class="add">
+      <input type="text" id="taskInput" placeholder="New task" />
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <div class="board">
+      <div class="column">
+        <h3>Todo</h3>
+        <ul id="todo"></ul>
+      </div>
+
+      <div class="column">
+        <h3>Doing</h3>
+        <ul id="doing"></ul>
+      </div>
+
+      <div class="column">
+        <h3>Done</h3>
+        <ul id="done"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
