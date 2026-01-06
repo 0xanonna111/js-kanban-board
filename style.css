@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  padding: 20px;
+}
+
+.kanban {
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.add input {
+  padding: 8px;
+  width: 250px;
+}
+
+.add button {
+  padding: 8px 15px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  gap: 15px;
+}
+
+.column {
+  background: #fff;
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  min-height: 200px;
+}
+
+li {
+  background: #f1f1f1;
+  padding: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
